@@ -1,0 +1,25 @@
+{
+  "name": "webpack-react-kit",
+  "version": "1.0.0",
+  "description": "a simple webpack react starter kit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikingmute/webpack-react-kit.git"
+  },
+  "keywords": [
+    "react",
+    "webpack",
+    "babel",
+    "es6"
+  ],
+  "author": "viking",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vikingmute/webpack-react-kit/issues"
+  },
+  "homepage": "https://github.com/vikingmute/webpack-react-kit#readme"
+}
