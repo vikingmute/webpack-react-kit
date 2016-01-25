@@ -30,7 +30,7 @@ module.exports= {
     loaders: [
       {
         test: /\.jsx?$/,
-        loaders: ['react-hot', 'babel?presets[]=es2015&presets[]=react'],
+        loaders: ['babel'],
         include: APP_PATH
       },
       {

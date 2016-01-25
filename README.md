@@ -3,7 +3,7 @@ another simple webpack react starter kit to help you get to know webpack better
 
 ### Features
 
-* Hot loading of react components
+* Hot Module Replacement for React Component
 * Babel for js/jsx processing
 * Bootstrap4 framework with SCSS support
 * Testing with Karma
