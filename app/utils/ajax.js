@@ -13,7 +13,7 @@ export function get(url) {
         }
       }
     });
-    xhr.addEventListener('error', function(e) {
+    xhr.addEventListener('error', function(error) {
       reject(error);
     });
   });
