@@ -1,4 +1,4 @@
-export function get(url) {
+export default function get(url) {
   return new Promise(function(resolve, reject) {
     const xhr = new XMLHttpRequest();
     xhr.open('GET', url);

@@ -1,5 +1,5 @@
 import React from 'react';
-import {get} from '../utils/ajax';
+import get from '../utils/ajax';
 
 export default class Plist extends React.Component {
 

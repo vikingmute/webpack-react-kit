@@ -1,12 +1,20 @@
 # webpack-react-kit
+
 another simple webpack react starter kit to help you get to know webpack better
+
+### Update
+
+* using new React Hot Loader 3 (https://github.com/gaearon/react-hot-loader) to replace deprecated react-hmre (https://github.com/gaearon/react-transform-hmr)
+* using Enzyme to replace karma test launcher (TODO)
+* add ESlint with (airbnb react plugin) to validate JSX style(TODO)
 
 ### Features
 
 * Hot Module Replacement for React Component
 * Babel for js/jsx processing
 * Bootstrap4 framework with SCSS support
-* Testing with Karma
+* Testing with Enzyme (TODO)
+* ESlint to validate JSX style (TODO)
 
 ### Demo
 
@@ -28,7 +36,4 @@ then open http://localhost:8080 to see how it works
 
 *testing*
 
-```bash
-npm run test
-```
-will popup a chrome browser for testing, you can config the setting in karma.conf.js
+TODO...

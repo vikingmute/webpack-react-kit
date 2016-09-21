@@ -7,22 +7,19 @@ var APP_PATH = path.resolve(ROOT_PATH, 'app');
 var BUILD_PATH = path.resolve(ROOT_PATH, 'build');
 
 module.exports= {
-  entry: {
-    app: path.resolve(APP_PATH, 'index.jsx')
-  },
+  entry: [
+    'webpack-dev-server/client?http://localhost:4000',
+    'webpack/hot/only-dev-server',
+    path.resolve(APP_PATH, 'index.jsx')
+  ],
   output: {
     path: BUILD_PATH,
-    filename: 'bundle.js'
+    filename: 'bundle.js',
+    publicPath: '/static/'
   },
   //enable dev source map
   devtool: 'eval-source-map',
-  //enable dev server
-  devServer: {
-    historyApiFallback: true,
-    hot: true,
-    inline: true,
-    progress: true
-  },
+
   resolve: {
       extensions: ['', '.js', '.jsx']
   },
@@ -40,8 +37,6 @@ module.exports= {
     ]
   },
   plugins: [
-    new HtmlwebpackPlugin({
-      title: 'My first react app'
-    })
+    new webpack.HotModuleReplacementPlugin()
   ]
 }
